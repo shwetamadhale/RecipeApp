@@ -1,0 +1,43 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
+}
+.header{
+  justify-content: center;
+  text-align: center;
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width : 50%;
+  border: none;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.search-button{
+  background: olive;
+  border: none;
+  padding: 10px 20px;
+  color: seashell;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
